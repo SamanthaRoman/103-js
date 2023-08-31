@@ -64,7 +64,7 @@ function calculateGPA(){
 
 /// now inject the code so it stays... 
 
-document.getElementById("studentList").innerHTML+=  `
+document.getElementById("product").innerHTML+=  `
 <div>
     <p>Name: ${studentName}</>
     <p>FSDI 101: ${grade1}</>
