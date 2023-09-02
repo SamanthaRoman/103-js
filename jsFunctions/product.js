@@ -39,11 +39,11 @@ function calculateSalesTotal(){
 document.getElementById("productReceipt").innerHTML+=`
 <div>
     <p><b>Product Name:</b> ${productName}</p>
-    <p><b>Price:</b> ${price}</p>
-    <p><b>Quantity:</b> ${quantity}</p>
-    <p><b>Subtotal:</b> ${productTotal}</p>
-    <p><b>Sales Tax:</b> ${tax}</p>
-    <p><b>Sales Total:</b>${totalDue}</p>
+    <p><b>Price: </b> ${price}</p>
+    <p><b>Quantity: </b> ${quantity}</p>
+    <p><b>Subtotal: </b> ${productTotal}</p>
+    <p><b>Sales Tax: </b> ${tax}</p>
+    <p><b>Sales Total: </b>${totalDue}</p>
 </div>
 `
 };
