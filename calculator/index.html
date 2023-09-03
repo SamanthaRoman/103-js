@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bg">
+        <div class="flex-container">
+            <h1 class="header">Worlds Best Calculator</h1>
+            <div class="flex-item">
+                <label>Input Number 1</label>
+                <input id="num1" type="number" placeholder="Input Number Here">
+            </div>
+            <div class="flex-item">
+                <label>Input Number 2</label>
+                <input id="num2" type="number" placeholder="Input Number Here">
+            </div>
+            <div class="flex-item">
+                <label>Choose your opperator</label>
+                <select id="opperator">
+                    <option >Select Opperator</option>
+                    <option value="+" id="txtOpp">+ (add)</option>
+                    <option value="-" id="txtOpp">- (subtract)</option>
+                    <option value="*" id="txtOpp">* (multiply)</option>
+                    <option value="/" id="txtOpp">/ (divide)</option>
+                </select>
+                <!-- <input id="txtOpp" type="text"> -->
+            </div>
+            <div class="flex-item">
+                <button class="btnCalculate" onclick="calculate()" >get results   <i class="fa-solid fa-wand-magic-sparkles fa-xs"></i></button>
+            </div>
+            
+            <div class="flex-item">
+                <div class="result" id="total" ></div>
+            </div>
+        </div>
+
+</div>
+
+    <main></main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
