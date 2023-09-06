@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get It Done!</title>
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./mystyle.css">
+</head>
+</head>
+
+
+
+<body>
+    <header class="container">
+        <h1>Master To Do List</h1>
+        <p>Add your new task below and specify if its buisness or personal, then click the + button</p>
+        <div class="flex-container">
+            <div class="flex-item">
+
+                <input type="text" id="txtNewTask" placeholder="ex: Mop Floors">
+                <label>Personal
+                    <input class="pers-item" type="checkbox" id="personalTask">
+                    <span class="checkmark" ></span>
+                </label>
+                <label>Business
+                    <input type="checkbox" id="businessTask">
+                    <span class="checkmark" ></span>
+                </label>
+            </div>
+            <!-- <label>Add New Task</label> -->
+            <button class="new-task btn-add" onclick="addTask()" >Add  <i class="fa-solid fa-plus"></i></button>
+        </div>
+    </header>
+        
+
+
+    <main class="container main-list">
+        <h1>Things To Get Done</h1>
+        <div>
+            <h2>Personal Task:</h2>
+            <ul id="personalList"></ul>
+            <h2>Business Tasks:</h2>
+            <ul id="businessList"></ul>
+        </div>
+    </main>
+
+
+    <script src="./app.js"></script>
+</body>
+
+
+
+
+</html>
